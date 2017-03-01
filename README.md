@@ -1,10 +1,21 @@
 # SOSA
 SharePoint Online Security Auditor (SOSA). A tool designed for quick mapping of SharePoint Online sites and discovery of information of interest to SharePoint Administrators and professional Penetration Testers
 
-##Usage
-Install Dependencies: pip install -r requirements.txt
-Run: python sosa.py 
 
+## Status
+
+[![Build Status](https://travis-ci.org/codingo/SOSA.svg?branch=master)](https://travis-ci.org/codingo/SOSA)
+
+##Usage
+
+**Install Dependencies:**
+```
+pip install -r requirements.txt
+```
+**Run:** 
+```
+python sosa.py 
+```
 **usage:** sosa.py [-h] [-tenant URL] [-username URL] [-password ID] [--quiet]
                [--listsites] [--listdepth LISTDEPTH] [--listusers LISTUSERS]
                [--peopleenum PEOPLEENUM]
