@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="file_operations.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="sites.py">
       <SubType>Code</SubType>
     </Compile>
