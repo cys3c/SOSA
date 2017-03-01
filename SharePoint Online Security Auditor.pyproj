@@ -31,6 +31,7 @@
     <Compile Include="sosa.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".travis.yml" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <PropertyGroup>

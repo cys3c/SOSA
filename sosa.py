@@ -22,6 +22,7 @@ def main():
     parser.add_argument("--listsites", dest="listsites",  action="store_true", help="List all sites in the provided tenant that the credentials have access to.")
     parser.add_argument("--listdepth", dest="listdepth",  help="List the depth of subsites that should be listed. Significant performance decrease and increased noise and scanning times should be expected")
     parser.add_argument("--listusers", dest="listusers",  help="List all users and their properties from the user information list.")
+    parser.add_argument("--peopleenum", dest="peopleenum",  help="Attempt to identify users by enumerating the people service.")
     arguments = parser.parse_args()
 
     if len(sys.argv) == 1:
