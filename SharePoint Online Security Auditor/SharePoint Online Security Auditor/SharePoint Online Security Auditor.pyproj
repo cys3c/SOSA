@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0e608af-8e3c-455b-92f9-0c73a975de95</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SharePoint_Online_Security_Auditor.py</StartupFile>
+    <StartupFile>sosa.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="SharePoint_Online_Security_Auditor.py" />
+    <Compile Include="sites.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sosa.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
