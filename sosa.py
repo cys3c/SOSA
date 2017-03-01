@@ -27,6 +27,7 @@ def main():
 
     if len(sys.argv) == 1:
         print_logo()
+
         parser.error("No arguments given.  Please specify a tenant (url or id) as well as a known username and password from the tenant.")
         sys.exit()
 
