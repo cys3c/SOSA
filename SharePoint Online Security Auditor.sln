@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SharePoint Online Security Auditor", "SharePoint Online Security Auditor\SharePoint Online Security Auditor.pyproj", "{E0E608AF-8E3C-455B-92F9-0C73A975DE95}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SharePoint Online Security Auditor", "SharePoint Online Security Auditor.pyproj", "{E0E608AF-8E3C-455B-92F9-0C73A975DE95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
